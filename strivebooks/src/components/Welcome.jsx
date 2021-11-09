@@ -6,10 +6,9 @@ const Welcome = () =>(
 <>
     <Jumbotron fluid>
       <Container>
-        <h1>Fluid jumbotron !</h1>
+        <h1>Welcome</h1>
         <p>
-           This is a modified fluid jumbotron which
-           stretches the whole horizontal space.    
+           This is our Strive Library  
         </p>
         <Button variant="primary">
          Primary Button
