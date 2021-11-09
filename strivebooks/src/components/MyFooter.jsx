@@ -1,6 +1,3 @@
-import React from "react"
-
-
 
     const MyFooter = () => (
         //CSS styling added to index.css with .footer classname
