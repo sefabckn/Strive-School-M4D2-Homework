@@ -10,8 +10,8 @@ const LatestRelease = () =>{
             
                 {
                     items.map((bookObject)=>(
-                        <Col xs={12} md={4} xl={2}>
-                            <Card style={{ width: '10rem' }}>
+                        <Col xs={12} s={6} md={4} xl ={2}>
+                            <Card style={{ width: '12rem' }}>
                                 <Card.Img variant="top" src={bookObject.img} />
                                 <Card.Body>
                                     <Card.Title>{bookObject.title}</Card.Title>
