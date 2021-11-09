@@ -7,23 +7,25 @@ const LatestRelease = () =>{
     return(
         <Container fluid>
         <Row class = "row mt-3">
-            <Col xs={12} md={4} l={6} xl={6}>
+            
                 {
                     items.map((bookObject)=>(
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src={bookObject.img} />
-                            <Card.Body>
-                                <Card.Title>{bookObject.title}</Card.Title>
-                                <Card.Text>
-                                {bookObject.price} 
-                                </Card.Text>
-                                <Button variant="primary">Go Book</Button>
-                            </Card.Body>
-                        </Card>
+                        <Col xs={12} md={4} xl={2}>
+                            <Card style={{ width: '10rem' }}>
+                                <Card.Img variant="top" src={bookObject.img} />
+                                <Card.Body>
+                                    <Card.Title>{bookObject.title}</Card.Title>
+                                    <Card.Text>
+                                    {bookObject.price}<span>€</span>
+                                    </Card.Text>
+                                    <Button variant="primary">Go Book</Button>
+                                </Card.Body>
+                            </Card>
+                        </Col>
                       
                     ))
                 }
-            </Col>
+            
         </Row>
     </Container>
     )
