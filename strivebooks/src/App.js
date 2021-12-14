@@ -13,12 +13,11 @@ function App() {
     <div>
       <MyNavbar brand="Strivebook" />
 
-      <MyFooter />
 
       <Welcome />
 
       <LatestRelease />
-     
+      <MyFooter />
     </div> 
     
   );
