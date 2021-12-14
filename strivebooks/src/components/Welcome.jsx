@@ -11,7 +11,7 @@ const Welcome = () =>(
            This is our Strive Library  
         </p>
         <Button variant="primary">
-         Primary Button
+         Explore More...
         </Button>
       </Container>
     </Jumbotron>
